@@ -1,16 +1,41 @@
 {
   "name": "course-selling-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "- initialize a new Node.js project - step by step router for User side - login page  - upload file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1",
-    "jsonwebtoken": "^9.0.2"
-  }
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^9.15.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.4",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "schema": "^0.2.1",
+    "zod": "^3.23.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manojseetaram/course-selling-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Manojseetaram/course-selling-app/issues"
+  },
+  "homepage": "https://github.com/Manojseetaram/course-selling-app#readme"
 }
