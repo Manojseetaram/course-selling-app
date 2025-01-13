@@ -9,7 +9,7 @@ function adminjwtverify (req,res,next){
     next()
     }else{
         res.status(403).json({
-            message :"You are not signed in this a messege"
+            message :"You are not signed in th account"
         })
     }
 }
